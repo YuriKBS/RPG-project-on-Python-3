@@ -5,15 +5,16 @@ def roll_dice():
     return random.randint(1, 6)
 
 def start_game():
-    print("Welcome to the Adventure Game!")
-    print("You find yourself in a dark forest.")
+    print("Welcome to this attempt of a small RPG adventure in Python!\nIn this game you will fight as an sole fighter through a dungeon. Can you survive it?")
+    print("Some challenges you will have to use the dice to decide how things go.\nIt is up to you to decide weather to be honest with the dice or not.")
+    print("You find yourself in a dark forest.\nAhead of you lays the entrance of a cave. By its side you can see the river that water the city that you expended the last night.")
     first_choice()
 
 def first_choice():
     print("\nYou can go: ")
     print("1. Left (towards a river)")
     print("2. Right (towards a cave)")
-    print("3. Roll a dice for luck")
+    print("3. Roll a dice.")
 
     choice = input("Which way do you want to go? (1/2/3): ")
 
@@ -39,7 +40,7 @@ def river():
     print("You can: ")
     print("1. Swim across")
     print("2. Go back")
-    print("3. Roll a dice for luck")
+    print("3. Roll a dice.")
 
     choice = input("What do you want to do? (1/2/3): ")
 
